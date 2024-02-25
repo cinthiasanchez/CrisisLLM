@@ -13,3 +13,7 @@
 > conda env create -f environment.yml
 > conda activate llm
 ```
+
+## Use
+
+Before the use of the notebooks is mandatory to set your own hugginface ID in config.*.yml files. 
