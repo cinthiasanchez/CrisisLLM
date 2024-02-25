@@ -5,6 +5,7 @@ __pycache__/
 embeddings
 # C extensions
 *.so
+*.csv
 local.*
 events*
 # Distribution / packaging
