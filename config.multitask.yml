@@ -27,7 +27,7 @@ k-shot:
 
 
 db_versions: 1
-base_promt: join_dataframe_and_prompt_gpt
+base_promt: join_dataframe_and_prompt
 random_state_partition: 1
 
 mode_case: baseline
