@@ -1,0 +1,10 @@
+transformers==4.35.2
+accelerate==0.25.0
+sentencepiece==0.1.99
+datasets==2.15.0
+peft==0.7.0
+bitsandbytes==0.41.3
+evaluate==0.4.0
+scikit-learn
+tensorboard
+notebook
