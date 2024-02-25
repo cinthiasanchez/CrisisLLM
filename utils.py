@@ -1,4 +1,5 @@
 from yaml import safe_load
+import json
 
 
 def load_yaml(filename):
@@ -14,3 +15,10 @@ def load_yaml(filename):
         configurations = safe_load(file)
 
     return configurations
+
+
+def load_args_promt(settings, promt_name):
+    with open(f'{settings["promt_source"]}/{promt_name}') as buffer:
+        args = json.load(buffer)[settings['k-selected']]
+    
+    return args
