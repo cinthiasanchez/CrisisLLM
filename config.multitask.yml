@@ -37,6 +37,7 @@ train:
   epochs: 1
   max_steps: -1
   lr: 0.0001
+  optimizer: paged_adamw_8bit
 
 eval_steps: 128
 add_answer: True
@@ -44,7 +45,7 @@ add_answer: True
 add_explanation: True
 
 
-optimizer: paged_adamw_8bit
+
 inference_batch: 8
 
 max_len: 128
