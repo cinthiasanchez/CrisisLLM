@@ -1,6 +1,6 @@
 model_name: llamav2
 model_id: meta-llama/Llama-2-7b-chat-hf
-hub_id: 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
+hub_id: <your-hf-id>
 padding_side: left
 test_size: 0.05
 model_max_length: 4096
