@@ -1,0 +1,26 @@
+{
+    "k0":{
+        "model":"social media message classifier",
+        "task": "Your task is to detect crisis-related tweets posted during crisis events, classifying them into one of the following categories",
+        "categories_description": "- Related: it refers implicitly or explicitly to any disaster. - Not related: unrelated to any disaster, such as general opinions, spam and advertising.",
+        "category_list": "\"Related\" or \"Not related\""
+    },
+    "k1":{
+        "model":"social media message classifier",
+        "task": "Your task is to detect crisis-related tweets posted during crisis events, classifying them into one of the following categories",
+        "categories_description": "- Related: it refers implicitly or explicitly to any disaster. Example: \"Up to 100,000 people face evacuation in Colorado\". - Not related: unrelated to any disaster, such as general opinions, spam and advertising. Example: \"I got woken up from my nap I totes deserve someone bringing me that stuff.\"",
+        "category_list": "\"Related\" or \"Not related\""
+    },
+    "k3":{
+        "model":"social media message classifier",
+        "task": "Your task is to detect crisis-related tweets posted during crisis events, classifying them into one of the following categories",
+        "categories_description": "- Related: it refers implicitly or explicitly to any disaster. Examples: \"Up to 100,000 people face evacuation in Colorado\", \"East Peoria houses damaged in 2013 landslide are coming down\", \"Officials working the #HighParkFire confirmed that several roads are closed\". - Not related: unrelated to any disaster, such as general opinions, spam and advertising. Examples: \"I got woken up from my nap I totes deserve someone bringing me that stuff.\", \"Wow, the temperature is only a mild 71.6 degrees fahrenheit here #Roma, but the wind gusts are over 70 km/h http://t.co/97kGV4b8\", \"This weather is nuts!!!! Might not be able to get downtown tomorrow now\"",
+        "category_list": "\"Related\" or \"Not related\""
+    },
+    "k5":{
+        "model":"social media message classifier",
+        "task": "Your task is to detect crisis-related tweets posted during crisis events, classifying them into one of the following categories",
+        "categories_description": "- Related: it refers implicitly or explicitly to any disaster. Examples: \"Up to 100,000 people face evacuation in Colorado\", \"East Peoria houses damaged in 2013 landslide are coming down\", \"Officials working the #HighParkFire confirmed that several roads are closed\", \"After Irma, few evacuees remain at Atlanta Motor Speedway\", \"Footages shows dozen vehicles and building damaged by the heavy earthquake in #Mirpur #AJK #Pakistan\". - Not related: unrelated to any disaster, such as general opinions, spam and advertising. Examples: \"I got woken up from my nap I totes deserve someone bringing me that stuff.\", \"Wow, the temperature is only a mild 71.6 degrees fahrenheit here #Roma, but the wind gusts are over 70 km/h http://t.co/97kGV4b8\", \"This weather is nuts!!!! Might not be able to get downtown tomorrow now\", \"Where's a quiet, secluded place to study/write in #yeg?\", \"I really needed this laugh\"",
+        "category_list": "\"Related\" or \"Not related\""
+    }
+}

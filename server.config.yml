@@ -1,0 +1,46 @@
+model_name: llamav2
+model_id: meta-llama/Llama-2-7b-chat-hf
+hub_id: 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
+padding_side: left
+test_size: 0.05
+model_max_length: 4096
+
+datasets: llm-databases
+database: data/tuning/humanitarian.csv
+db_versions: 1
+base_promt: join_dataframe_and_prompt
+random_state_partition: 1
+tune_name: humanitarian
+
+
+train:
+  batch_size: 16
+  epochs: 1
+  max_steps: -1
+  lr: 0.0001
+  optimizer: paged_adamw_8bit
+
+target_modules: 
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+  - lm_head
+
+eval_steps: 128
+add_answer: True
+add_explanation: True
+
+
+inference: data/testing/humanitarian.csv
+inference_batch: 8
+max_len: 128
+temperature: 0.1
+
+promt_template: PROMT_TEMPLATE
+promt_source: promts
+k-shot: humanitarian.json
+k-selected: k0
